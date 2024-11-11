@@ -22,9 +22,9 @@
 #   print("ГОРИ")
 #else: print("не гори")
 
-#category = input("Введите категорию товара: ")
-
-#if category.lower() == "продукты":
+# category = input("Введите категорию товара: ")
+#
+# if category = "продукты":
 #    price = int(input("Введите цену товара: "))
 #    if price < 100:
 #        print("Попробуйте нашу выпечку!")
@@ -34,13 +34,26 @@
 #        print("Попробуйте экзотические фрукты!")
 #    print("Загляните в товары для дома!")
 
-price1 = int(input('Цена первого товара:'))
-price2 = int(input('Цена второго товара:'))
-price3 = int(input('Цена третьего товара:'))
-if price1 <= price2 and price2 <= price3:
-    print('Акция!')
-    print('К оплате:', (price1 + price2 + price3)/2)
-elif price3 <= price2 and price2 <= price1:
-    print('Акция!')
-    print('К оплате:', (price1 + price2 + price3)/3)
-else: print('К оплате:', price1 + price2 + price3)
+# price1 = int(input('Цена первого товара:'))
+# price2 = int(input('Цена второго товара:'))
+# price3 = int(input('Цена третьего товара:'))
+# if price1 <= price2 and price2 <= price3:
+#     print('Акция!')
+#     print('К оплате:', (price1 + price2 + price3)/2)
+# elif price3 <= price2 and price2 <= price1:
+#     print('Акция!')
+#     print('К оплате:', (price1 + price2 + price3)/3)
+# else: print('К оплате:', price1 + price2 + price3)
+
+# d = int(input())
+# if d % 4 == 0:
+#     print("год  високосный")
+# elif d % 400 == 0:
+#     if d % 100 == 0:
+#         print("год високосный")
+# else: print("год не високосный")
+
+# a = int(input("введите число"))
+# if a % 2 == 0:
+#     print("чётное")
+# else: print("нечётное")
